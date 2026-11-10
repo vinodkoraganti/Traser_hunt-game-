@@ -1,0 +1,68 @@
+import { Achievement } from './types.ts';
+
+export const INITIAL_ACHIEVEMENTS: Achievement[] = [
+  {
+    id: 'first_discovery',
+    title: 'First Discovery',
+    description: 'Solve your very first ancient puzzle.',
+    icon: '🧭',
+    unlocked: false,
+    conditionDescription: 'Solve 1 puzzle.',
+  },
+  {
+    id: 'puzzle_master',
+    title: 'Puzzle Master',
+    description: 'Solve at least 5 different riddles, locks, or challenges.',
+    icon: '🧩',
+    unlocked: false,
+    conditionDescription: 'Solve 5 puzzles.',
+  },
+  {
+    id: 'hidden_object_expert',
+    title: 'Keen Eye Expert',
+    description: 'Discover 3 hidden relics concealed in ancient scenes.',
+    icon: '🔍',
+    unlocked: false,
+    conditionDescription: 'Find 3 relics/hidden objects.',
+  },
+  {
+    id: 'speed_explorer',
+    title: 'Speed Explorer',
+    description: 'Reach Level 3 or higher in under 10 minutes.',
+    icon: '⚡',
+    unlocked: false,
+    conditionDescription: 'Progress rapidly through the island.',
+  },
+  {
+    id: 'treasure_hunter',
+    title: 'Treasure Hunter',
+    description: 'Amass a fortune of over 500 shimmering gold coins.',
+    icon: '💰',
+    unlocked: false,
+    conditionDescription: 'Accumulate 500+ coins.',
+  },
+  {
+    id: 'untouchable',
+    title: 'Intuitive Mind',
+    description: 'Solve 3 puzzles completely on your own without hints.',
+    icon: '🧠',
+    unlocked: false,
+    conditionDescription: 'Solve 3 puzzles without asking for hints.',
+  },
+  {
+    id: 'trap_dodger',
+    title: 'Trap Dodger',
+    description: 'Safely disarm or evade a treacherous ancient mechanism.',
+    icon: '🛡️',
+    unlocked: false,
+    conditionDescription: 'Safely navigate an ancient obstacle.',
+  },
+  {
+    id: 'legendary_explorer',
+    title: 'Legendary Explorer',
+    description: 'Unlock the Lost Island and open the mythical Treasure of Montezuma.',
+    icon: '👑',
+    unlocked: false,
+    conditionDescription: 'Complete Level 5 and uncover the lost treasure.',
+  },
+];

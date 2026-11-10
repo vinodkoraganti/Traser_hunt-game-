@@ -1,0 +1,6 @@
+{
+  "name": "TREASURE QUEST: The Lost Treasure",
+  "description": "An interactive, story-driven adventure game exploring mysterious lands, solving puzzles, collecting clues, and uncovering legendary lost treasures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
